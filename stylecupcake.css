@@ -1,0 +1,179 @@
+*{
+	box-sizing: border-box;
+}
+/*background color for navigation bar*/
+.homenav {
+	background-color: #ffe6e6;
+	outline: 10px solid #ffe6e6;
+	height: 140px;
+}
+/*for both cupcake and words "cupcake cafe*/
+.brand {
+	padding-left: 25px;
+	padding-top: 5px;
+}
+/*links the .brand to the welcome page and took away the underline*/
+.a {
+	text-decoration: none;
+}
+/*for both words "cupcake cafe"*/
+.cupcake {
+	font-size: 40px;
+	font-family: Courier;
+	position: absolute;
+	padding-top: 45px;
+	line-height: 1.5px;
+	color: black;
+}
+/*just for the word cafe*/
+#cafe {
+	position: relative;
+	padding-left: 40px;
+}
+/*for the list itself*/
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding-left: 410px;
+	margin: 0;
+}
+/*this displays the words right next to each other instead of stacking them*/
+li {
+	display: inline;
+}
+/*for the words in the list*/
+.words {
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: Courier;
+	padding-left: 80px;
+}
+/*only the words in the undordered list changes color when the mouse hovers*/
+a:hover {
+	color: #cc6699;
+}
+/*when words clicked on they change color*/
+.active {
+	color:#cc6699;
+}
+/*for the space that the slideshow will be in*/
+.slideshow-container {
+	margin-top: 1.8%;
+}
+/*for the description of the website*/
+#aboutus {
+	text-align: center;
+	padding-top: 20px;
+	font-family: Courier;
+	padding-bottom: 100px;
+}
+/*this is just for the paragraph part not the about us heading*/
+.about {
+	font-size: 20px;
+}
+/*for the link to the vegan website "visit this website"*/
+#veganlink {
+	text-decoration: none;
+	color: #cc6699;
+}
+					/*THIS IS FOR THE MENU TAB*/
+
+/*for the space that the picture for the menu tab will be in*/
+.backgroundpiccontainer {
+	margin-top: 1.8%;
+}
+/*for the heading "our vegan menu"*/
+#ourmenu {
+	text-align: center;
+	font-family: Courier;
+	padding-top: 40px;
+}
+/*for the pictures/actual menu part*/
+.menupics {
+	padding-right: 30px;
+	margin-bottom: 20px;
+}
+.description {
+	padding: 0;
+	padding-bottom:60px;
+	font-family: Courier;
+	margin-bottom:60px;
+}
+
+
+					/*THIS IS FOR THE CONTACT TAB*/
+/*this is for the picture on contact tab*/
+#contactpic {
+	margin-top: 1.8%;
+}
+/*this is for the heading "how can we help you?"*/
+#help {
+	text-align: center;
+	padding-top: 40px;
+	font-family: Courier;
+}
+/*this is for all of the information input*/
+.info {
+	padding-top: 30px;
+	padding-left: 100px;
+}
+/*this is only for the text first name last name email message*/
+.name {
+	font-family: Courier;
+}
+/*this is so that the space to put the info is bigger*/
+input {
+	padding: 10px;
+}
+/*this is so that the two text type inputs (first and last names) can be longer*/
+input[type="text"] {
+	padding-right: 250px;
+}
+/*this is so that the input type email space can be longer*/
+input[type="email"] {
+	padding-right: 250px;
+}
+/*this is so tha the input type message space can be bigger*/
+input[type="message"] {
+	padding-right: 250px;
+	padding-bottom: 200px;
+}
+/*this is all for the submit button.*/
+input[type="submit"] {
+	background: brown;
+	color:white;
+	margin-top:30px;
+	display:block;
+	font-family: Courier;
+	margin-bottom: 100px;
+}
+			/*THIS IS FOR THE BOTTOM OF ALL TABS*/
+/*for bottom part color*/
+.bottom {
+		background-color: #ffcccc;
+		outline: 10px solid #ffcccc;
+		height: 140px;
+		overflow: hidden;
+}
+/*for all of the location information*/
+.location {
+	padding-left: 30px;
+	padding-top: 20px;
+	display: block;
+	font-family: Courier;
+}
+/*for the part that says find us here*/
+.findus {
+	font-size: 20px;
+}
+/*for all three logos to be next to each other*/
+.s {
+	display: inline;
+}
+/*to position the three logos*/
+.social {
+	position: relative;
+	margin-left: 800px;
+	bottom: 60px;
+}

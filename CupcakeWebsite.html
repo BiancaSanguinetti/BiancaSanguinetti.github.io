@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cupcake Cafe</title>
+	<link rel="stylesheet" type="text/css" href="stylecupcake.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+	<div class="homenav">
+		<div class="brand">
+		<a class="a" href="Cupcakewebsite.html">
+		<img src="cupcake.png" alt="picture of cupcake" height="100px" width="100px"> <span class="cupcake">Cupcake</span><span class="cupcake" id="cafe">Cafe</span>
+		</a>
+	    </div>
+		<ul>
+			<li><a class="active words" href="CupcakeWebsite.html">Welcome</a></li>
+			<li><a class="words" href="menu.html">Menu</a></li>
+			<li><a class="words" href="contactus.html">Contact Us</a></li>
+		</ul>
+	</div>
+
+	<div class="slideshow-container">
+
+
+<div class="mySlides">
+  <img src="vcake.jpg" style="width:100%" alt="picture of a cake">
+</div>
+
+<div class="mySlides">
+  <img src="mac.jpg" style="width:100%" alt="picture of a macaroon">
+</div>
+<div class="mySlides">
+	<img src="brownies.jpg" style="width:100%; height:651px" alt="picture of a brownie">
+</div>
+
+</div>
+
+	<script>
+		var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 4000); // The 4000 changes the image every 4 seconds
+	}
+	</script> 
+	<br>
+
+<div id="aboutus">
+<h1>About Us</h1>
+<p class="about"> We're so much more than just cupcakes! Cupcake Cafe is a vegan bakery that sells a variety of desserts. We sell cupcakes all the way to macaroons!. Everything is homemade and vegan. We believe you can still enjoy desserts not at the expense of animals or the environment.</p>
+<p class="about"> Want to learn more about going vegan? Visit <a target="_blank" id="veganlink" href="https://www.vegansociety.com/go-vegan/why-go-vegan">this</a> website!</p>
+</div>
+
+<div class="bottom">
+	<div class="loc">
+	<span class="location findus"><b>Find us here:</b></span>
+	<span class="location">2140 Peachtree Road</span>
+   <span class="location">Atlanta, Georgia 30309</span>
+	</div>
+	<div class="s">
+		<span class="social"> 
+			<a href="https://www.facebook.com/"> <img src="fblogo.png" alt="facebook logo" style="width: 50px"></a>
+			<a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twitterlogo.png" alt="twitter logo" style="width:42px"></a>
+			<a href="https://www.instagram.com/?hl=en"> <img src="instagramlogo.png" alt="instagram logo" style="width:42px"></a>
+		</span>
+   	</div>
+</div> 
+
+</body>
+</html>
